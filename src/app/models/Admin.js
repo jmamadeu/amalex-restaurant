@@ -53,6 +53,8 @@ class Admin {
         response = {
           ...response,
           token,
+          data: undefined,
+          total: undefined,
         };
 
         return response;
